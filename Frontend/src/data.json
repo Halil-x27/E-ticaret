@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "name": "Siyah Pantalon",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 108.00
+        },
+        "discount": 22,
+        "img": {
+            "singleImage": "img/Product/product1/1.jpg",
+            "thumbs": [
+                "img/Product/product1/1.jpg",
+                "img/Product/product1/2.jpg",
+                "img/Product/product1/3.jpg"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "MAVİ-BEYAZ GÖMLEK",
+        "price": {
+            "oldPrice": 208.00,
+            "newPrice": 100
+        },
+        "discount": 33,
+        "img": {
+            "singleImage": "img/Product/product2/1.jpg",
+            "thumbs": [
+                "img/Product/product2/1.jpg",
+                "img/Product/product2/2.jpg"
+                
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Anne Bluz",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 38.00
+        },
+        "discount": 90,
+        "img": {
+            "singleImage": "img/Product/product3/1.jpg",
+            "thumbs": [
+                "img/Product/product3/1.jpg",
+                "img/Product/product3/2.jpg",
+                "img/Product/product3/3.jpg"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Saten Hırka",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 48.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/Product/product4/1.png",
+            "thumbs": [
+                "img/Product/product4/1.png",
+                "img/Product/product4/2.png",
+                "img/Product/product4/3.png"
+
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Mavi Kot Pantalon",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 48.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/Product/product5/1.jpg",
+            "thumbs": [
+                "img/Product/product5/1.jpg",
+                "img/Product/product5/2.jpg"
+                
+            ]
+        }
+    }
+]

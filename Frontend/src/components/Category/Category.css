@@ -1,0 +1,10 @@
+.categories {
+    margin: 40px 0px;
+  }
+  
+  .categories .category-list {
+    display: inline-flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }

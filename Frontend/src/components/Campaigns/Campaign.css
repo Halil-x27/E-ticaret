@@ -1,0 +1,96 @@
+.campaigns .campaign-item {
+    padding: 70px 35px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    color: white;
+  }
+  
+  .campaigns .campaign-item .campaign-title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  
+  .campaigns .campaign-item .campaign-desc {
+    margin: 40px 0;
+    font-size: 14px;
+  }
+  
+  .campaigns-wrapper:nth-child(1) .campaign-item:nth-child(1) {
+    background-image: url(../../img/campaigns/banner1.jpg);
+  }
+  
+  .campaigns-wrapper:nth-child(1) .campaign-item:nth-child(2) {
+    background-image: url(../../img/campaigns/banner2.jpg);
+  }
+  
+  .campaigns-wrapper:nth-child(2) .campaign-item:nth-child(1) {
+    background-image: url(../../img/campaigns/banner3.jpg);
+    flex: 5;
+  }
+  
+  .campaigns-wrapper:nth-child(2) .campaign-item:nth-child(2) {
+    background-image: url(../../img/campaigns/banner4.jpg);
+    flex: 5;
+  }
+  
+  @media (max-width: 768px) {
+    .campaigns .campaign-item {
+      width: 100%;
+      flex: unset !important;
+    }
+  }
+
+
+  .campaign-single {
+    background-image: url(../../img/single-campaign.png);
+    background-attachment: fixed;
+    padding: 140px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .campaign-single .campaign-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .campaign-single .campaign-wrapper h2 {
+    font-size: 25px;
+  }
+  
+  .campaign-single .campaign-wrapper strong {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  
+  .campaign-single .campaign-wrapper span {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+  }
+  
+  .campaign-single .campaign-wrapper > a {
+    background-color: #fff;
+    margin-top: 60px;
+  }
+  
+  .campaign-single .campaign-wrapper > a:hover {
+    background-color: #1367ef;
+    border-color: #1367ef;
+    color: #fff;
+  }
+
+ .campaigns .campaigns-wrapper {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+  }
